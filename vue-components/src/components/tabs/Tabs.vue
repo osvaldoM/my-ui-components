@@ -30,7 +30,7 @@ export default {
   props: {
     selectedTabIndex: {
       type: Number,
-      default: 0,
+      default: 1,
     }
   },
   data(){
@@ -51,7 +51,7 @@ export default {
     this.tabs = this.$children;
   },
   mounted(){
-    this.selectTab(this.selectedTabIndex)
+    this.selectTab(--this.selectedTabIndex)
   }
 }
 </script>

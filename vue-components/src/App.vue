@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
 
-    <Tabs v-bind="$props">
+    <Tabs :selected-tab-index="2">
       <tab label="Tab 1">Hello From Tab 1</tab>
       <tab label="Tab 2">Hello From Tab 2</tab>
       <tab label="Tab 3">Hello From Tab 3</tab>
