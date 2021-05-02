@@ -11,10 +11,10 @@ const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: {Tabs, Tab},
   template: `<Tabs v-bind="$props">
-    <tab label="Tab 1">Hello From Tab 1</tab>
-    <tab label="Tab 2">Hello From Tab 2</tab>
-    <tab label="Tab 3">Hello From Tab 3</tab>
-    <tab label="Tab 4">Hello From Tab 4</tab>
+    <tab label="Tab 1">Tab 1</tab>
+    <tab label="Tab 2">Tab 2</tab>
+    <tab label="Tab 3">Tab 3</tab>
+    <tab label="Tab 4">Tab 4</tab>
   </Tabs>`
 })
 

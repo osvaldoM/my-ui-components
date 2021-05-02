@@ -22,7 +22,7 @@
 
           <div class="modal-footer">
             <slot name="footer">
-
+              default footer
             </slot>
           </div>
         </div>
@@ -39,7 +39,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(252 186 116 / 90%);
+  background-color: rgb(63 60 58 / 78%);
   display: table;
   transition: opacity 0.3s ease;
   overflow-x: hidden;
