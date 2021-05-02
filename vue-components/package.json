@@ -13,13 +13,14 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "core-js": "^3.6.5",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "which": "^2.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
+    "@babel/runtime-corejs3": "^7.14.0",
     "@storybook/addon-actions": "^6.2.9",
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",

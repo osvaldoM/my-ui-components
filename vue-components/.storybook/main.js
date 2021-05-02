@@ -11,7 +11,7 @@ module.exports = {
   ],
   webpackFinal: async (config) => {
     config.module.rules.push({
-      test: /\.css$/,
+      test: /\.vues$/,
       use: [
         {
           loader: 'postcss-loader',

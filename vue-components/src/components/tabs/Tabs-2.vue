@@ -30,6 +30,7 @@
 
 <script>
 export default {
+
     data() {
         return {
             openTab: 1
