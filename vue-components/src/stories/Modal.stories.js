@@ -3,6 +3,13 @@ import Modal from '../components/modal/Modal'
 export default {
   component: Modal,
   title: 'Components/Modal',
+  argTypes: {
+    isModalVisible: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  }
 };
 
 const Template = (args, { argTypes }) => ({
@@ -15,6 +22,5 @@ const Template = (args, { argTypes }) => ({
 export const Default = Template.bind({});
 
 Default.args = {
-  isModalVisible: true,
-  'update:isModalVisible': () => {}
+  isModalVisible: true
 }

@@ -55,3 +55,17 @@ export default {
   }
 }
 </script>
+
+<style>
+  .tab-header {
+    @apply cursor-pointer -mb-px text-center relative z-10;
+    top: 0;
+  }
+
+  .tab-header-btn {
+    @apply text-xs font-bold uppercase px-5 py-3 rounded-t block leading-normal bg-white focus:outline-none;
+  }
+  .active-tab-header-btn {
+    @apply text-black border border-b-0;
+  }
+</style>
