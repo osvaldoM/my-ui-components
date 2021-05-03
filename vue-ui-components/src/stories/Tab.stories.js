@@ -4,6 +4,13 @@ import Tab from '../components/tabs/Tab.vue';
 export default {
   component: Tabs,
   title: 'Components/Tab',
+  argTypes: {
+    selectedTabIndex: {
+      control: {
+        type: 'number',
+      },
+    },
+  },
 };
 
 const Template = (args, { argTypes }) => ({
